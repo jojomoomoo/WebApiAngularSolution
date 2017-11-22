@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Angular", "http://localhost:50593", "{73B54E86-C5A3-4332-8559-2B600524BFA0}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50593"
+		Debug.AspNetCompiler.PhysicalPath = "Angular\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50593\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50593"
+		Release.AspNetCompiler.PhysicalPath = "Angular\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50593\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Angular\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{57E9E986-28F7-441B-867D-0D3BD5A1D8B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73B54E86-C5A3-4332-8559-2B600524BFA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B54E86-C5A3-4332-8559-2B600524BFA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B54E86-C5A3-4332-8559-2B600524BFA0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B54E86-C5A3-4332-8559-2B600524BFA0}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{57E9E986-28F7-441B-867D-0D3BD5A1D8B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E9E986-28F7-441B-867D-0D3BD5A1D8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E9E986-28F7-441B-867D-0D3BD5A1D8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E9E986-28F7-441B-867D-0D3BD5A1D8B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
